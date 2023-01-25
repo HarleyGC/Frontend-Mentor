@@ -14,6 +14,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
+    min-height: 97vh;
 }
 
 .card {
@@ -23,7 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 7% auto;
     max-width: 300px;
     padding: 16px;
 }
@@ -46,7 +46,7 @@ body {
 
 .card__content-heading {
     color: var(--dark-blue);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     margin: 15px auto;
     text-align: center;
@@ -54,17 +54,8 @@ body {
 
 .card__content-paragraph {
     color: var(--grayish-blue);
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 400;
     margin: 0 auto 20px auto;
     text-align: center;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
